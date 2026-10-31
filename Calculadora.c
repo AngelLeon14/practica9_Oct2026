@@ -26,7 +26,7 @@ void main()
   while(elec < 1 || elec > 4);
   printf("Dame la primera cifra: ");
   scanf("%f", &n1);
-  printf"Dame la segunda cifra: ");
+  printf("Dame la segunda cifra: ");
   scanf("%f", &n2);
   switch (elec)
   {
@@ -38,37 +38,37 @@ void main()
       break;
     case 3:
       res = mult(n1, n2);
-      break
+      break;
     case 4:
       res = div(n1, n2);
-      break
+      break;
     default:
       break;
   }
-  printf("El resultado es: %f\n, res);
+  printf("El resultado es: %f\n", res);
 }
 
 float suma(float num1, float num2) 
 {
   float res;
-  res = num1 + num2
+  res = num1 + num2;
   return res; 
 }
 float resta(float num1, float num2)
 {
   float res;
-  res = num1 - num2
+  res = num1 - num2;
   return res;
 }
 float mult(float num1, float num2)
 {
   float res;
-  res = num1 * num2
+  res = num1 * num2;
   return res;
 }
 float div(float num1, float num2)
 {
   float res;
-  res = num1 / num2
+  res = num1 / num2;
   return res;
 }
