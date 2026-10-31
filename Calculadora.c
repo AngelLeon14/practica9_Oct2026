@@ -12,7 +12,7 @@ float div(float num1, float num2);
 void main()
 {
   int elec = 0;
-  float n1, n2, rest;
+  float n1, n2, res = 0;
   do
   {
     printf("Elige una operación: \n");
@@ -41,18 +41,34 @@ void main()
       break
     case 4:
       res = div(n1, n2);
+      break
     default:
       break;
   }
-  printf("El resultado es: %f, res);
+  printf("El resultado es: %f\n, res);
 }
 
-float suma(float num1, float num2); 
+float suma(float num1, float num2) 
 {
   float res;
-  res = b num1 + num2
+  res = num1 + num2
   return res; 
 }
-float resta(float num1, float num2);
-float mult(float num1, float num2);
-float div(float num1, float num2
+float resta(float num1, float num2)
+{
+  float res;
+  res = num1 - num2
+  return res;
+}
+float mult(float num1, float num2)
+{
+  float res;
+  res = num1 * num2
+  return res;
+}
+float div(float num1, float num2)
+{
+  float res;
+  res = num1 / num2
+  return res;
+}
